@@ -15,6 +15,10 @@ module.exports = {
         test: /\.js$/,
         exclude: /node_modules/,
         loader: 'react-hot!babel?stage=0'
+      },
+      {
+        test: /\.css$/,
+        loader: 'style!css'
       }
     ]
   },

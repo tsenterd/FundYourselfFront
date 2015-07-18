@@ -1,0 +1,36 @@
+body {
+  background-color: #5A637D;
+
+}
+#title{
+  display:block;
+  margin: 0 auto;
+  height:50px;
+  width:200px;
+text-align: center;
+}
+#app {
+  margin-top: 50px;
+}
+
+.listing {
+  background-color: #65D9EB;
+  /*opacity: 0.6;*/
+  display: block;
+  margin: 0 auto;
+  width: 1000px;
+  height: 100px;
+  margin-bottom: 10px;
+}
+
+.listing img {
+  height: 100px;
+  width: 100px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.listing .content {
+  display: inline-block;
+  vertical-align: top;
+}
