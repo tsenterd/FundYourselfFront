@@ -1,11 +1,12 @@
 import React from 'react';
+import Router from 'react-router';
+import { DefaultRoute, Link, Route, RouteHandler } from 'react-router';
 
 export default class App extends React.Component {
   render = () => {
     return (
       <div>
-        <h1>Hello There</h1>
-        <StyledComponent/>
+      <StyledComponent/>
       </div>
     )
   }
@@ -13,14 +14,8 @@ export default class App extends React.Component {
 
 class StyledComponent extends React.Component {
   render = () => {
-    const object = {
-      backgroundColor: 'red',
-      width: 50,
-      height: 50
-    }
-
     return (
-      <div style={object}>
+      <div className = 'mystyle' >
       </div>
     )
   }
