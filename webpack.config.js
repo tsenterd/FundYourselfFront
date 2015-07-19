@@ -15,15 +15,18 @@ module.exports = {
         test: /\.js$/,
         exclude: /node_modules/,
         loader: 'react-hot!babel?stage=0'
-      },
-      {
+      }, {
         test: /\.css$/,
         loader: 'style!css'
       }
     ]
   },
+  devServer: {
+    historyApiFallback: true
+  },
   plugins: [
     new webpack.HotModuleReplacementPlugin(),
     new webpack.NoErrorsPlugin()
-  ]
+  ],
+  devtool: 'cheap-eval-source-map'
 }

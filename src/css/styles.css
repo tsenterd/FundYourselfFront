@@ -1,0 +1,257 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+.frontPage
+{
+  display: block;
+  text-align: center;
+  width: 200px;
+}
+.modal-dialog {
+    display: block;
+    width: auto;
+    height: auto;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+a {
+text-decoration: none;
+color: black;
+}
+.link
+{
+  text-decoration: none;
+  color: #27ae60;
+  font-family: 'Lato', sans-serif;
+  font-weight: 100;
+  text-transform: uppercase;
+}
+
+#main {
+  display: block;
+  width: 900px;
+  height: 100%;
+  margin: 0 auto;
+}
+
+header {
+  display: block;
+  height:60px;
+  width:100%;
+  background-color: #ecf0f1;
+  font-family: 'Open Sans', sans-serif;
+}
+
+#header-container {
+  display: block;
+  height: inherit;
+  width: 900px;
+  margin: 0 auto;
+}
+
+header h1 {
+  font-family: 'Lato', sans-serif;
+  float: left;
+  font-weight: 100;
+  text-transform: uppercase;
+}
+
+#header-buttons {
+  float: right;
+}
+
+.btn {
+  border: none;
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+  background: none;
+  cursor: pointer;
+  padding: 10px 25px;
+  display: inline-block;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 700;
+  outline: none;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+  margin: 10px 0 0 0;
+  border-radius: 5px;
+  width: 200px;
+}
+
+.btn:after {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+/* Button 1 */
+.btn-1 {
+  border: 3px solid #27ae60;
+  color: #27ae60;
+}
+
+/* Button 1a */
+.btn-1a:hover,
+.btn-1a:active {
+  color: #fff;
+  background: #27ae60;
+}
+.btn-1ab
+{
+  display: block;
+  margin: 0 auto;
+
+}
+.special_green {
+  color: #27ae60;
+}
+
+#header-buttons .btn {
+  margin: 5px 0px 0 0;
+  color: #fff;
+  background: #27ae60;
+}
+
+#header {
+  display: block;
+  width: 900px;
+  height: auto;
+  margin: 20px auto 0 auto;
+  text-align: center;
+}
+
+#content {
+  display: block;
+  width: 900px;
+  height: 100%;
+  margin: 50px auto 0 auto;
+}
+
+#profile-image {
+  display: block;
+  width: 110px;
+  height: 110px;
+  background-image: url("http://dummyimage.com/110");
+  float: left;
+  border-radius: 10px;
+}
+
+#description {
+  display: block;
+  width: 550;
+  min-height: 100px;
+  margin-left: 130px;
+  margin-bottom: 20px;
+  float: left;
+}
+
+#backers {
+  display: block;
+  width: auto;
+  height: auto;
+  float: left;
+}
+
+#raised {
+  display: block;
+  width: auto;
+  height: auto;
+  float: left;
+}
+
+h1 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  padding: 10px 0 10px 0;
+}
+
+h3 {
+  font-weight: 100;
+}
+
+h2 {
+  font-weight: 400;
+  padding: 10px 0 10px 0;
+}
+
+#main_image_container {
+  display: block;
+  width: 550px;
+  height: 400px;
+  margin-left: 20px;
+  float: left;
+}
+
+#information {
+  display: block;
+  height: 100px;
+  width: 200px;
+  float: right;
+}
+.frontPage
+{
+  display: block;
+  width: 900px;
+  height: 150px;
+  background-color: rgb(240, 240, 240);
+  margin: 20px 0 20px 0;
+  border-radius: 7px;
+}
+.listing {
+  display: block;
+  width: 900px;
+  height: 150px;
+  background-color: rgb(240, 240, 240);
+  margin: 20px 0 20px 0;
+  border-radius: 7px;
+}
+
+.listing img {
+  display: block;
+  width: 110px;
+  height: 110px;
+  border-radius: 5px;
+  background-image: url("http://dummyimage.com/110");
+  margin: 20px 0 20px 20px;
+  float: left;
+}
+
+/*This is really the title*/
+.listing .title {
+  display: block;
+  width: auto;
+  height: auto;
+  text-align: left;
+  margin-left: 20px;
+  float: left;
+}
+
+.listing .price {
+  display: block;
+  width: auto;
+  height: auto;
+  text-align: right;
+  float: right;
+  margin-right: 20px;
+}
+
+.description {
+  display: block;
+  width: 530px;
+  height: auto;
+  margin-left: 20px;
+  float: left;
+}
